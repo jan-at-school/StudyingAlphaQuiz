@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Studying Alpha Quiz</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+
+
+    <string name="dummy_question_body">Sammy Sneadle, CFA, is the founder and portfolio manager of the Everglades Fund. In its first year the fund generated a return of 30 percent. Building on the fund’s performance, Sneadle created new marketing materials that showed the fund’s gross 1- year return as well as the 3 and 5-year returns which he calculated by using back-tested performance information. As the marketing material is used only for presentations to institutional clients, Sneadle does not mention the inclusion of back-tested data. According to the Standards of Practice Handbook, how did Sneadle violate CFA Institute Standards of Professional Conduct?
+</string>
+
+
+    <string name="optionA">He did not disclose the use of back-tested data</string>
+    <string name="optionB">He failed to deduct all fees and expenses before calculating the fund’s track record.</string>
+    <string name="optionC">The marketing materials only include the Everglades Fund’s performance and are not
+a weighted composite of similar portfolios.</string>
+    <string name="answerDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere porta sapien vel convallis. Vivamus sodales nisl luctus diam tincidunt, accumsan aliquam nisl viverra. Nulla imperdiet accumsan imperdiet. Nullam dolor felis, ultricies ut posuere a, aliquam ut nisi. Duis quis nisi eu purus auctor euismod. Donec urna risus, ultrices eu commodo quis, semper convallis urna. Curabitur ac erat lacinia, maximus nunc ullamcorper, commodo lacus. In rhoncus commodo turpis, id dapibus ex scelerisque ut. Morbi hendrerit augue quam.  Aenean at nunc et eros tincidunt placerat. Etiam at leo non quam faucibus sagittis. Etiam rutrum quam nunc, nec volutpat nisl tempor imperdiet. Aliquam quis neque lectus. Aliquam dictum nibh id nulla rhoncus, et imperdiet risus accumsan. In facilisis, nunc vel tempor vulputate, felis sem gravida nunc, ut convallis elit nulla ut turpis. Nunc non egestas sapien, vitae varius nulla. In neque velit, suscipit eget iaculis ut, cursus vitae turpis. Sed eu porttitor ante. Nunc nec mollis felis. Proin venenatis convallis ornare. Cras a gravida risus.  Donec convallis mauris placerat leo gravida, a tincidunt ipsum ultrices. Nam quis rutrum libero. Nunc enim dui, volutpat sed arcu non, cursus tincidunt massa. Sed gravida ex a leo ornare hendrerit. Aliquam tempus magna ut blandit ultricies. Etiam in dui nec massa scelerisque varius vitae non purus. Vestibulum ac congue nibh. Nulla molestie neque vel dapibus vestibulum. Suspendisse fermentum commodo ipsum, sed facilisis leo tristique non. Proin ut orci eget enim condimentum placerat.</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+</resources>

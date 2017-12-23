@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.cykiq.studyingalphaquiz.Custom.SquareLinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/answer_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_circle"
+            android:drawableTop="@drawable/ic_question"
+            android:paddingTop="20dp"
+            android:text="Answer"
+            android:textColor="#fff" />
+
+
+
+    </com.cykiq.studyingalphaquiz.Custom.SquareLinearLayout>
+
+
+    <com.cykiq.studyingalphaquiz.Custom.SquareLinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/next_question_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_circle"
+            android:drawableTop="@drawable/ic_done_white"
+            android:paddingTop="20dp"
+            android:text="Next"
+            android:textColor="#fff" />
+
+
+
+    </com.cykiq.studyingalphaquiz.Custom.SquareLinearLayout>
+
+
+
+
+</LinearLayout>

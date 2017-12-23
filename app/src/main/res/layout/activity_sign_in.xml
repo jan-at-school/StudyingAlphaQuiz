@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:overScrollMode="never"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:src="@drawable/logo_cfa"
+                android:layout_alignParentTop="true"
+                android:id="@+id/image"
+                />
+            <ProgressBar
+                android:id="@+id/progressBarDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:indeterminate="true">
+
+            </ProgressBar>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text1"
+                android:layout_below="@id/image"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColorHint="@android:color/white"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/username_edit_text"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorHighlight="@android:color/white"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_text1"
+                android:id="@+id/edit_text2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColorHint="@android:color/white"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/password_edit_text"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:layout_below="@+id/username_edit_text"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorHighlight="@android:color/white" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/myerrorlayout"
+                android:layout_below="@id/edit_text2">
+                <TextView
+                    android:id="@+id/error_text_view"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Invalid Username or Password!"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myerrorlayout"
+                android:text="LOGIN"
+                android:id="@+id/login_button"
+                android:backgroundTint="@color/colorAccent" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/login_button"
+                android:text="New here? Register now!"
+                android:paddingRight="5dp"
+                android:textSize="17sp"
+                android:id="@+id/register_button"
+                android:clickable="true"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/darker_gray"
+                android:elevation="8dp"
+                android:textColorLink="@android:color/darker_gray" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
